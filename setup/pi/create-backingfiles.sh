@@ -22,6 +22,9 @@ function add_drive () {
 }
 
 function create_teslacam_directory () {
+  
+  # I want to have an external ssd drive connected. lets start looking here
+  
   mount /mnt/cam
   mkdir /mnt/cam/TeslaCam
   umount /mnt/cam
